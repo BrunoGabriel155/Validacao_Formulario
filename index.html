@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Validação de Formulário - Bruno Gabriel </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteudo">
+        <div class="topo">
+            <h2>Cadastrar Usuário</h2>
+        </div>
+        <form class="form" id="form">
+
+            <div class="form-item">
+                <label>Nome</label>
+                <input type="text" id="username">
+                <i class="img-success"> <img src="imagens/success-icon.svg" alt=""></i>
+                <i class="img-error"> <img src="imagens/error-icon.svg" alt=""></i>
+                <small>Mensagem de Erro</small>
+            </div>
+
+            <div class="form-item">
+                <label>Email</label>
+                <input type="email" id="email">
+                <i class="img-success"> <img src="imagens/success-icon.svg" alt=""></i>
+                <i class="img-error"> <img src="imagens/error-icon.svg" alt=""></i>
+                <small>Mensagem de Erro</small>
+            </div>
+
+            <div class="form-item">
+                <label>Senha</label>
+                <input type="password" id="password1">
+                <i class="img-success"> <img src="imagens/success-icon.svg" alt=""></i>
+                <i class="img-error"> <img src="imagens/error-icon.svg" alt=""></i>
+                <small>Mensagem de Erro</small>
+            </div>
+
+            <div class="form-item">
+                <label>Confirme sua Senha</label>
+                <input type="password" id="password2">
+                <i class="img-success"> <img src="imagens/success-icon.svg" alt=""></i>
+                <i class="img-error"> <img src="imagens/error-icon.svg" alt=""></i>
+                <small>Mensagem de Erro</small>
+            </div>
+
+            <button type="submit">Adicionar</button>
+        </form>
+    </div>
+    <script src="interacao.js"></script>
+</body>
+</html>
